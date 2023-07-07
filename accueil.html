@@ -2,81 +2,37 @@
 <html lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page vierge en html5</title>
-<link rel="stylesheet" type="text/css" href="stylesweb.css">
+<link rel="stylesheet" type="text/css" href="stylesaccueil.css">
 </head>
+
 
 <body>
 
-<header>
-
-	<div id="house">
-		<a href="index.html"><img src="accueil.png" alt="icone" width="50"></a>
-	</div>
-	
-<h1>Gwenaël Alo</h1>
-
-  
-	
-
-
-<!-- début menu déroulant -->
-<nav>
-
-	<ul> 
-		
-		<li><a href="bio.html">Bio</a></li>
-	
-		<li class="deroulant"><a href="#">Portfolio</a>
-		
-		<ul class="sous">
-			<li><a href="portfolio.html">Print</a></li>
-			<li><a href="web.html">Web</a></li>
-		</ul>
-		
-		<li><a href="contact.html">Contact</a></li>
-		
-	</ul>
-	</li>
-</nav>
-	
-<!-- Fin menu déroulant -->
-	
-</header>	
+ <!-- Menu sur le côté -->
+  <div class="menu">
+    <!-- Utilisation d'une checkbox -->
+    <input type="checkbox" id="hamburger">
+    <!-- Label de la checkbox -->
+    <label id="hamburger-logo" for="hamburger">☰</label>
 	
 	
-<div id="tableau">
+    <!-- Le reste du menu -->
+    <nav>
+      <a href="#">Page d'accueil</a>
+      <a href="#">Information</a>
+      <a href="#">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
 
-<img src="tableau.jpg" alt="arriere plan">
 
-
+<div class="container">
+	<div class="fusee"></div>
 </div>
 
 
-<section>
-	<article>
-
-<h3>Vous trouverez ci-dessous les liens de mes sites web que je créer dans le but de m'entraîner, d'expérimenter.</h3><br/>
-<p><em>site-test.github.io<em><p>
-
-	</article>
-
-</section>
-
-
-<footer>
-<p>	&#169; 2023 Gwenaël Alo réalisation site web CQP infographie </p>
-
-
-
-</footer>
 
 
 
 
-
-
-
-</body>
-</html>
